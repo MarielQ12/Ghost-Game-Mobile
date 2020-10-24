@@ -18,7 +18,7 @@ function setup (){
   
   back = createSprite(windowWidth/2,windowHeight/2);
   back.addImage (backImage);
-  back.scale = 2.5
+  back.scale = 2.5;
   back.velocityY = 1;
   Ghost = createSprite(200,windowHeight/2-100,50,50);
   Ghost.addAnimation("ghost",ghostImage);
